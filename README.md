@@ -1,16 +1,38 @@
-# TicketApp — React
+# 🎟️ TicketApp (React)
 
-A ticket management app with consistent Stage 2 UI: wave hero, circles, 1440px container; Auth with `localStorage` (`ticketapp_session`); protected routes; full ticket CRUD with validation + toasts; responsive & accessible.
+A full-featured ticket management web application built with **React + Vite + TypeScript**.  
+Implements authentication, protected routes, CRUD operations, validation, and consistent UI per HNG Stage 2 requirements.
 
-## Stack
-- React + TypeScript (Vite)
-- React Router
-- Zustand (tickets store)
-- CSS tokens (shared) in `/src/styles/tokens.css`
+---
 
-## Run
+## 🚀 Features
+- Responsive layout (max-width 1440 px, centered)
+- Wavy hero section + decorative circles
+- Simulated authentication using `localStorage.ticketapp_session`
+- Protected routes: `/dashboard`, `/tickets`
+- CRUD operations for tickets (Create / Read / Update / Delete)
+- Inline + toast error handling
+- Status colors  
+  - `open` → green  
+  - `in_progress` → amber  
+  - `closed` → gray
+- Accessibility compliant (semantic HTML, visible focus, alt text, color contrast)
+
+---
+
+## 🧩 Tech Stack
+- React 18
+- Vite 5 (TypeScript template)
+- React Router DOM v6
+- CSS Modules / tokens.css
+- LocalStorage for persistence
+
+---
+
+## 🧰 Setup & Run
+
 ```bash
-npm i
+git clone https://github.com/TheGreatWizard16/ticketapp-react.git
+cd ticketapp-react
+npm install
 npm run dev
-# build
-npm run build && npm run preview
