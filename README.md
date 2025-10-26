@@ -28,7 +28,10 @@ Implements authentication, protected routes, CRUD operations, validation, and co
 - LocalStorage for persistence
 
 ---
+## Live link
+https://ticketapp-react-one.vercel.app
 
+---
 ## 🧰 Setup & Run
 
 ```bash
